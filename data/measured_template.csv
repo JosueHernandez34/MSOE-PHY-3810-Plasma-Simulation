@@ -1,0 +1,6 @@
+# TEMPLATE for measured data. The rows below are EMPTY PLACEHOLDERS, not measurements.
+# One header row, one row per time point. Leave a cell empty if not measured.
+# Units: time_s in seconds, densities in m^-3 (NOT cm^-3: multiply cm^-3 by 1e6), Te_eV in eV.
+# A column named like a model column (n_e_m3, Te_eV, Ar+_m3, Ar*_m3, ...) is overlaid on the plot.
+# For a steady-state measurement use a single row; time_s can then be the model's end time.
+time_s,n_e_m3,Te_eV,Ar*_m3
